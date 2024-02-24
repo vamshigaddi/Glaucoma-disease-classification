@@ -6,29 +6,29 @@ This repository contains the source code and documentation for a deep learning-b
 ## Task Definition:
 
 Binary classification of glaucoma images into RG and NRG categories. 
-# Dataset:
+## Dataset:
 
 Utilize the glaucoma dataset sourced from Kaggle.
-# Model:
+## Model:
 
 Employ the Xception pre-trained model for image classification.
-# Dependencies:
+## Dependencies:
 
 Ensure necessary libraries such as TensorFlow, Keras, NumPy, and Matplotlib are installed.
-# Preprocessing:
+## Preprocessing:
 
 Normalize and resize images for model input.
-# Data Augmentation:
+## Data Augmentation:
 
 Apply augmentation techniques to enhance dataset diversity.
-# Model Training:
+## Model Training:
 
 Fine-tune the Xception model on the training dataset.
-# Evaluation:
+## Evaluation:
 
 Assess model performance using the test dataset and calculate test accuracy.
-# Documentation:
 
-Document project details, including methodology, results, and future improvements.
+## Conclusion:
+The Glaucoma Classification Project demonstrates the potential of deep learning in accurately diagnosing glaucoma from retinal images. By leveraging pre-trained models, data augmentation, and rigorous evaluation, the project achieves high test accuracy of 93%, contributing to the advancement of glaucoma diagnosis and treatment
 
 
