@@ -9,6 +9,7 @@ Binary classification of glaucoma images into RG and NRG categories.
 ## Dataset:
 
 Utilize the glaucoma dataset sourced from Kaggle.
+dataset link: [https://www.kaggle.com/datasets/deathtrooper/eyepacs-airogs-light/data?select=release-crop]
 ## Model:
 
 Employ the Xception pre-trained model for image classification.
