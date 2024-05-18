@@ -12,10 +12,11 @@ Utilize the glaucoma dataset sourced from Kaggle.
 dataset link: [https://www.kaggle.com/datasets/deathtrooper/eyepacs-airogs-light/data?select=release-crop]
 ## Model:
 
-Employ the Xception pre-trained model for image classification.
+Implemented the Xception pre-trained model for image classification.
 ## Dependencies:
-
-Ensure necessary libraries such as TensorFlow, Keras, NumPy, and Matplotlib are installed.
+```bash
+pip install requirements.txt
+```
 ## Preprocessing:
 
 Normalize and resize images for model input.
@@ -24,10 +25,10 @@ Normalize and resize images for model input.
 Apply augmentation techniques to enhance dataset diversity.
 ## Model Training:
 
-Fine-tune the Xception model on the training dataset.
+Fine-tuned the Xception model on the training dataset.
 ## Evaluation:
 
-Assess model performance using the test dataset and calculate test accuracy.
+Assess model performance using the test dataset and calculated test accuracy.
 
 ## Conclusion:
 The Glaucoma Classification Project demonstrates the potential of deep learning in accurately diagnosing glaucoma from retinal images. By leveraging pre-trained models, data augmentation, and rigorous evaluation, the project achieves high test accuracy of 93%, contributing to the advancement of glaucoma diagnosis and treatment
